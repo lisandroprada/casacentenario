@@ -22,7 +22,7 @@ Casa con local comercial independiente sobre la avenida Centenario, a unos 100 m
 Operación de venta cerrada por la firma: Propietas Inmobiliaria, corredor Lisandro E. Prada Toledo, M.P. Nº 117 COCICH. Datos de contacto y pie legal salen de `../_shared/inmobiliaria.md` (copiados al proyecto, no referenciados).
 
 ## Capabilities and Constraints
-- **Precio:** USD 140.000, venta (confirmado por el corredor; la ficha web decía alquiler, ignorar).
+- **Precio:** USD 180.000, venta (confirmado por el corredor; la ficha web decía alquiler, ignorar).
 - **Ubicación:** Centenario 437, Playa Unión, Rawson, Chubut. A ~100 m de la costa.
 - **Terreno:** 297 m² (9,90 × 30,00 m), consta en los planos municipales.
 - **Superficie total:** aprox. 150 m² (dato del usuario, **a validar con el corredor**; los planos muestran cifras menores y distintas).

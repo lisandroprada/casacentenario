@@ -213,6 +213,9 @@ h2 { font-size: clamp(1.7rem, 5.2vw, 2.7rem); line-height: 1.06; letter-spacing:
 
 .zona--c { fill: #fff; fill-opacity: .14; }
 .zona--d { fill: var(--celeste); fill-opacity: .38; }
+.esquema .zona--c rect { stroke: none; }
+.trazo .de-hecho { stroke-dasharray: .02 .016; }
+.js .plano .trazo .de-hecho { animation: none; }
 .esquema .zona, .esquema .marca { transition: opacity .3s, fill-opacity .3s; }
 .esquema .ref { cursor: pointer; transition: opacity .3s; outline: none; }
 .esquema .ref:focus-visible circle { stroke: var(--celeste); stroke-width: 3; }

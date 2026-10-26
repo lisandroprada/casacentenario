@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Casa con local en Playa Unión · Centenario 437 | Propietas Inmobiliaria</title>
-  <meta name="description" content="Casa con local comercial independiente en Centenario 437, Playa Unión, a unos 100 metros del mar. Terreno de 297 m². USD 140.000. Consultá por WhatsApp.">
+  <meta name="description" content="Casa con local comercial independiente en Centenario 437, Playa Unión, a unos 100 metros del mar. Terreno de 297 m². USD 180.000. Consultá por WhatsApp.">
   <meta name="theme-color" content="#2e3092">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_AR">
-  <meta property="og:title" content="Casa con local en Playa Unión · USD 140.000">
+  <meta property="og:title" content="Casa con local en Playa Unión · USD 180.000">
   <meta property="og:description" content="Centenario 437, a unos 100 metros del mar. Terreno de 297 m², casa de 2 dormitorios y local comercial con acceso independiente.">
   <meta property="og:image" content="https://casacentenario.ipropietas.com.ar/assets/img/web/v04.jpeg">
   <link rel="icon" type="image/svg+xml" href="assets/logos/propietas-simbolo.svg">
@@ -59,7 +59,7 @@ try {
 
         <dl class="cajetin-datos rise" style="--i:2">
           <div><dt>Dirección</dt><dd>Centenario 437, Playa Unión, Rawson</dd></div>
-          <div><dt>Precio</dt><dd class="precio">USD 140.000</dd></div>
+          <div><dt>Precio</dt><dd class="precio">USD 180.000</dd></div>
           <div><dt>Terreno</dt><dd>297 m²</dd></div>
         </dl>
 
@@ -71,7 +71,7 @@ try {
       <figure class="plano">
         <svg class="esquema" viewBox="0 0 360 462" role="group" aria-labelledby="plano-t plano-d">
           <title id="plano-t">Esquema del terreno de Centenario 437</title>
-          <desc id="plano-d">Terreno de 9,90 por 30,00 metros, con frente sobre la avenida Centenario. De adelante hacia atrás: vivienda y local comercial sobre el frente, galería semicubierta y parque.</desc>
+          <desc id="plano-d">Terreno de 9,90 por 30,00 metros, con frente sobre la avenida Centenario. De adelante hacia atrás: vivienda y local comercial sobre el frente, galería semicubierta y parque. La galería y el local existen pero no figuran en el plano.</desc>
           <defs>
             <pattern id="hach" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
               <line x1="0" y1="0" x2="0" y2="7" stroke="#27aae1" stroke-width="1.2"/>
@@ -91,39 +91,46 @@ try {
             <text transform="translate(14 224) rotate(-90)" text-anchor="middle">30,00 m</text>
           </g>
 
-          <!-- terreno y zonas -->
-          <rect class="zona" data-z="A" x="44" y="44" width="119" height="186" fill="url(#puntos)"/>
-          <rect class="zona" data-z="B" x="44" y="230" width="119" height="56" fill="url(#hach)"/>
-          <rect class="zona zona--c" data-z="C" x="44" y="286" width="72" height="118"/>
-          <rect class="zona zona--d" data-z="D" x="116" y="286" width="47" height="118"/>
+          <!-- terreno y zonas: la casa sale del relevamiento; galería y local existen de hecho y no figuran en el plano -->
+          <rect class="zona" data-z="A" x="44" y="44" width="119" height="165" fill="url(#puntos)"/>
+          <rect class="zona zona--b" data-z="B" x="44" y="209" width="119" height="56" fill="url(#hach)"/>
+          <g class="zona zona--c" data-z="C">
+            <rect x="44" y="362" width="78" height="42"/><rect x="44" y="318" width="27" height="44"/>
+            <rect x="71" y="267" width="24" height="95"/><rect x="95" y="318" width="27" height="44"/>
+            <rect x="44" y="301" width="27" height="17"/><rect x="44" y="279" width="27" height="22"/>
+            <rect x="97" y="267" width="41" height="46"/>
+          </g>
+          <rect class="zona zona--d" data-z="D" x="127" y="315" width="36" height="89"/>
           <g class="trazo">
             <path class="draw" pathLength="1" d="M44 44H163V404H44Z" stroke-width="2.200"/>
-            <path class="draw" pathLength="1" d="M44 230H163M44 286H163M116 286V404" stroke-width="1.200"/>
+            <path class="draw" pathLength="1" d="M44 209H163" stroke-width="1.200"/>
+            <path class="draw" pathLength="1" d="M44 362h78v42H44zM44 318h27v44H44zM71 267h24v95H71zM95 318h27v44H95zM44 301h27v17H44zM44 279h27v22H44zM97 267h41v46H97z" stroke-width="1.600"/>
+            <path class="draw de-hecho" pathLength="1" d="M44 265H163M127 315H163M127 315V404" stroke-width="1.200"/>
           </g>
           <text class="area" x="103.500" y="82" text-anchor="middle"><tspan class="area__r">TERRENO</tspan><tspan class="area__n" x="103.500" dy="22">297 m²</tspan></text>
 
           <!-- marcas -->
           <g class="marca" data-z="A"><circle cx="103.500" cy="150" r="10"/><text x="103.500" y="154.500" text-anchor="middle">A</text></g>
-          <g class="marca" data-z="B"><circle cx="103.500" cy="258" r="10"/><text x="103.500" y="262.500" text-anchor="middle">B</text></g>
-          <g class="marca" data-z="C"><circle cx="80" cy="345" r="10"/><text x="80" y="349.500" text-anchor="middle">C</text></g>
-          <g class="marca" data-z="D"><circle cx="139.500" cy="345" r="10"/><text x="139.500" y="349.500" text-anchor="middle">D</text></g>
+          <g class="marca" data-z="B"><circle cx="103.500" cy="237" r="10"/><text x="103.500" y="241.500" text-anchor="middle">B</text></g>
+          <g class="marca" data-z="C"><circle cx="83" cy="340" r="10"/><text x="83" y="344.500" text-anchor="middle">C</text></g>
+          <g class="marca" data-z="D"><circle cx="145" cy="360" r="10"/><text x="145" y="364.500" text-anchor="middle">D</text></g>
 
           <!-- referencias -->
           <g class="ref" data-z="A" tabindex="0" role="button" aria-label="Resaltar: Parque"><circle cx="206" cy="82" r="10"/><text x="206" y="86.500" text-anchor="middle" class="ref__l">A</text>
             <text x="224" y="80" class="ref__n">Parque</text><text x="224" y="97" class="ref__s">amplio, parquizado</text></g>
             <g class="ref" data-z="B" tabindex="0" role="button" aria-label="Resaltar: Galería"><circle cx="206" cy="150" r="10"/><text x="206" y="154.500" text-anchor="middle" class="ref__l">B</text>
-            <text x="224" y="148" class="ref__n">Galería</text><text x="224" y="165" class="ref__s">semicubierta y parrilla</text></g>
+            <text x="224" y="148" class="ref__n">Galería</text><text x="224" y="165" class="ref__s">semicubierta y parrilla</text><text x="224" y="181" class="ref__s">existe, no figura en plano</text></g>
             <g class="ref" data-z="C" tabindex="0" role="button" aria-label="Resaltar: Vivienda"><circle cx="206" cy="230" r="10"/><text x="206" y="234.500" text-anchor="middle" class="ref__l">C</text>
             <text x="224" y="228" class="ref__n">Vivienda</text><text x="224" y="245" class="ref__s">2 dormitorios</text><text x="224" y="261" class="ref__s">baño con jacuzzi</text></g>
             <g class="ref" data-z="D" tabindex="0" role="button" aria-label="Resaltar: Local comercial"><circle cx="206" cy="312" r="10"/><text x="206" y="316.500" text-anchor="middle" class="ref__l">D</text>
-            <text x="224" y="310" class="ref__n">Local comercial</text><text x="224" y="327" class="ref__s">acceso independiente</text></g>
+            <text x="224" y="310" class="ref__n">Local comercial</text><text x="224" y="327" class="ref__s">acceso independiente</text><text x="224" y="343" class="ref__s">existe, no figura en plano</text></g>
 
           <!-- calle -->
           <rect x="0" y="420" width="360" height="30" fill="url(#hach)" fill-opacity=".55"/>
           <path class="draw" pathLength="1" d="M0 420H360M0 450H360" stroke="#fff" stroke-width="1"/>
           <text class="calle" x="180" y="440" text-anchor="middle">AV. CENTENARIO · FRENTE</text>
         </svg>
-        <figcaption>Esquema ilustrativo, no a escala. Terreno de 9,90 × 30,00 m según planos municipales.</figcaption>
+        <figcaption>Esquema ilustrativo, no a escala. Terreno y vivienda según relevamiento; galería y local (línea punteada) existen de hecho y no figuran en el plano. Ubicación del local indicativa.</figcaption>
       </figure>
     </div>
     <div class="cajetin"><span>Casa Centenario</span><span>Implantación</span></div>
@@ -176,7 +183,7 @@ try {
         <table class="tabla rev">
           <caption class="solo-lectores">Datos de la propiedad y la operación</caption>
           <tbody>
-            <tr><th scope="row">Precio</th><td class="precio">USD 140.000</td></tr>
+            <tr><th scope="row">Precio</th><td class="precio">USD 180.000</td></tr>
             <tr><th scope="row">Forma de pago</th><td>Contado. Se evalúan otras opciones: consultá.</td></tr>
             <tr><th scope="row">Terreno</th><td>297 m² (9,90 × 30,00 m)</td></tr>
             <tr><th scope="row">Superficie total</th><td>Aprox. 150 m² <span class="nota">(a confirmar)</span></td></tr>
